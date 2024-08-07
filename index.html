@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      document.addEventListener('keydown', function(event) {
+        if (event.code === 'KeyH') { // Change 'KeyH' to the key you want to use
+          window.location.href = 'css/hidden_page.html'; // Replace 'hidden_page.html' with the actual filename of your hidden page
+        }
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <div class="header">
+      <!--h1>🇦🇶 Year 10 Website  🇦🇶</h1-->
+      <img src="header.jpg">
+    </div>
+  </head>
+  <body>
+    <!-- The Nav Bar goes here -->
+    <nav>
+      <ul> 
+        <li id="active"><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="images.html">Images.html</a></li>
+      </ul>
+
+    </nav>
+    <!-- page heading- add name here! -->
+    <h2>Welcome</h2>
+    <!-- This is the container for all the images you want to add- it's a flexbox so add as many as you want -->
+    <div class="container">
+      <!-- item 1 starts here-->
+      <div class="item">
+        <img src="images/motherland.jpg" alt="please replace me" />
+        <div class="item-info">
+          <!-- a brief explanation of what this picture is -->
+          <h5>Yelnya, Russia🇷🇺</h5>
+        </div>
+      </div>
+      <!-- end of item 1 -->
+      <!-- item 2 starts here-->
+      <div class="item">
+        <img src="images/iceland.jpg" alt="please replace me" />
+        <div class="item-info">
+          <!-- a brief explanation of what this picture is -->
+          <h5><b>Scott Base, Antarctica🇦🇶</b></h5>
+        </div>
+      </div>
+      <!-- end of item 2 -->
+      <!-- item 3 starts here-->
+      <div class="item">
+        <img src="images/caesar.jpg" alt="please replace me" />
+        <div class="item-info">
+          <!-- a brief explanation of what this picture is -->
+          <h5>Julius Caesar🇮🇹</h5>
+        </div>
+      </div>
+      <!-- end of item 3 -->
+      <!-- now the Evaluation text box-->
+      <div>
+        <h3>Welcome</h3>
+        <p>This is the Year 10 Website for Techquity. Dont Press H</p>
+      </div>
+    </div>
+    <footer>
+      <p>Max Cooper</p>
+      <p><a href="mailto:s225425@gapps.dilworth.school.nz">s225425</a></p>
+    </footer>
+  </body>
+</html>
